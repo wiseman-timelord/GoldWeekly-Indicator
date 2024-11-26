@@ -16,6 +16,7 @@ The current detail of features is...
 
 ### Preview
 - The Project so far...
+
 ![indicator preview](media/preview.png)
 
 ## Instructions
