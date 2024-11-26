@@ -6,6 +6,9 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 - Mk1 - Early version, basic functions including, display text and smma, limited to XauUsd.
 - Mk2 - Improved version, featuring 3 color smma and display text, limited to XauUsd.
 
+### Preview
+![mk1](media/mk1.png)
+![mk1](media/mk2.png)
 
 ### Development
 - ongoing project/ project being set up, tba.
