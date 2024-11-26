@@ -2,12 +2,7 @@
 Its an  Indicator for Mt5, that enables hopefully more effective trading, written with, GPT4o and DeepSeek2.5.
 
 ### Development
-Mk3, so far...
-- 3 color smma trends, 250, 500, 1000, to indicate longterm trends.
-- any pair compatible.
-- default line thickness 2 on smma.
-
-### Plans
+Mk4 so far...
 - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 
 ### Description
@@ -15,9 +10,14 @@ Mk3, so far...
 - Mk1 - Early version, basic functions including, display text and smma, limited to XauUsd.
 - Mk2 - Improved version, featuring 3 color smma and display text, limited to XauUsd.
 
-### Preview
-- mk3 under development...
+### Features
+The current detail of features is...
+- Display text - useful info such as, periods since week start max 1000, combined smma result, week date start/end.  
+- 3 color smma trends - 250, 500, 1000, with default line thickness 2.
+- Any pair compatible - Not pair locked like early version, but still intended for gold.
 
+### Preview
+- The Project so far...
 ![indicator preview](media/preview.png)
 
 ## Instructions
