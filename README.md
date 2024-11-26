@@ -17,7 +17,8 @@ Mk3, so far...
 - 3 color smma trends, 250, 500, 1000, to indicate longterm trends.
 - any pair compatible.
 - default line thickness 2 on smma.
-Mk4, planned...
+
+### Plans
 - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 
 ## Instructions
