@@ -9,8 +9,7 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 ### Preview
 - mk3 under development...
 
-![indicator preview](media/indicator_current.png).
-`
+![indicator preview](media/indicator_current.png)
 
 ### Development
 - ongoing project/ project being set up, tba.
