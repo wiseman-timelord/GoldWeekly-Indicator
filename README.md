@@ -8,5 +8,5 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 
 
 ### Development
-- Mk3 - Do not use, under deveopment; so far, added Rsi, color selection based on the 3 trends, also any pair.
+- Mk3 - Do not use, under deveopment; so far, added Rsi, color selection based on the 3 trends, any pair compatible.
 - Mk4 - Tba.
