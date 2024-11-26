@@ -12,6 +12,9 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 ![indicator preview](media/indicator_current.png)
 
 ### Development
-- ongoing project/ project being set up, tba.
-- Mk3 - Do not use, under deveopment; so far, added Rsi, color selection based on the 3 trends, and any trending pair compatible..
-- Mk4 - Tba.
+mk3 - Do not use, under deveopment; so far...
+- Rsi
+- 3 color smma trends, 250, 500, 1000, to indicate longterm trends.
+- any pair compatible.
+- default line thickness 2 on smma.
+- rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
