@@ -7,8 +7,7 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 - Mk2 - Improved version, featuring 3 color smma and display text, limited to XauUsd.
 
 ### Preview
-![mk1](media/mk1.png)
-![mk1](media/mk2.png)
+![indicator preview](media/indicator_current.png).
 
 ### Development
 - ongoing project/ project being set up, tba.
