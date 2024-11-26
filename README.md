@@ -2,8 +2,9 @@
 Its an  Indicator for Mt5, that enables hopefully more effective trading, written with, GPT4o and DeepSeek2.5.
 
 ### Development
-Mk4 - Plans so far...
-- rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
+Plans at the moment...
+- (mk3) Text works.
+- (mk4) rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 
 ### Description
 - Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
