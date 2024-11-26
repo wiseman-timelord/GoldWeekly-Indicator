@@ -2,7 +2,7 @@
 Its an  Indicator for Mt5, that enables hopefully more effective trading, written with, GPT4o and DeepSeek2.5.
 
 ### Development
-Plans at the moment...
+Current project workflow...
 - (mk3) Display Text with resize works.
 - (mk4) rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 
