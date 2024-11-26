@@ -3,8 +3,8 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 
 ### Development
 Current project workflow...
-- (mk3) Display Text with resize works.
-- (mk4) rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
+- REmaining work for mk3 - Display Text with resize works.
+- Planned for mk4 - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 
 ### Description
 - Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
