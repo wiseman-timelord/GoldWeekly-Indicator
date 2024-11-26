@@ -6,9 +6,7 @@ Mk4 so far...
 - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 
 ### Description
-- Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes... 
-- Mk1 - Early version, basic functions including, display text and smma, limited to XauUsd.
-- Mk2 - Improved version, featuring 3 color smma and display text, limited to XauUsd.
+- Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
 
 ### Features
 The current detail of features is...
