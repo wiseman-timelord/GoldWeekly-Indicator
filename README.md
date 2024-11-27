@@ -33,5 +33,9 @@ With this combination indicators, the strategy for trading would rely upon recog
 - Rsi (built-in Mt5) - is like market pressure, when too far over one side, it will likely go to direction of other side at some point after.
 - Lines (built-in Mt5) - Ensure to draw on the chart to clarify patterns.
 
-### Warnings
+## Notation
+- I created this GPT Profile named [Mt5Mql5-4o1Mini](https://chatgpt.com/g/g-Un4YwjMNH-mt5mql5-4o1mini), for creating my, Indicators and Expert Advisors.
+
+
+## Warnings
 - Trading with specified method, in theory is supposed to work, but you should combine with other methods you are experimenting with or knowing of; this indicator will not guarantee success.
