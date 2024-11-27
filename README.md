@@ -4,16 +4,16 @@ Status: Incomplete
 ### Description
 - A set of Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
 
+### Preview
+- The, Display Text and 3x Smma, on the chart...
+
+![indicator preview](media/preview.png)
+
 ### Features
 The current detail of features is...
 - GoldWeekly-TextDisplay - useful info such as, periods since week start max 1000, week date start/end.  
 - GoldWeekly-3xSmma - 3 color smma trends, Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2. 
 - GoldWeekly-TextDisplay - both of the above, with the added text to show the medium average result of the 3 smma.
-
-### Preview
-- The, Display Text and 3x Smma, on the chart...
-
-![indicator preview](media/preview.png)
 
 ## Instructions
 With this combination indicators, the strategy for trading would rely upon recognizing patterns, then when you recognize a pattern, you must be confirming directions for optimal trading with indicators. 
