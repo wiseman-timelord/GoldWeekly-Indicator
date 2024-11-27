@@ -34,7 +34,7 @@ With this combination indicators, the strategy for trading would rely upon recog
 - Lines (built-in Mt5) - Ensure to draw on the chart to clarify patterns.
 
 ## Notation
-- I created this GPT Profile named [Mt5Mql5-4o1Mini](https://chatgpt.com/g/g-Un4YwjMNH-mt5mql5-4o1mini), for creating my, Indicators and Expert Advisors.
+- I created this (currently experimental) GPT Profile named [Mt5Mql5-4o1Mini](https://chatgpt.com/g/g-Un4YwjMNH-mt5mql5-4o1mini), for creating my, Indicators and Expert Advisors.
 
 
 ## Warnings
