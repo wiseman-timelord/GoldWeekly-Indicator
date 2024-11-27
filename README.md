@@ -8,6 +8,7 @@ Status: Incomplete
 The current detail of features is...
 - GoldWeekly-TextDisplay - useful info such as, periods since week start max 1000, week date start/end.  
 - GoldWeekly-3xSmma - 3 color smma trends, Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2. 
+- GoldWeekly-TextDisplay - both of the above, with the added text to show the medium average result of the 3 smma.
 
 ### Preview
 - Roughly the stage I am at, slight difference in display text...
