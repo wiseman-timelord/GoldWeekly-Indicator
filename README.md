@@ -13,8 +13,8 @@ Current project workflow...
 
 ### Features
 The current detail of features is...
-- Display text - useful info such as, periods since week start max 1000, combined smma result, week date start/end.  
-- 3 color smma trends - Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2.
+- GoldWeekly-TextDisplay - useful info such as, periods since week start max 1000, combined smma result, week date start/end.  
+- GoldWeekly-3xSmma - 3 color smma trends, Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2. 
 - Any pair compatible - Not pair locked like early version, but still intended for gold.
 
 ### Preview
