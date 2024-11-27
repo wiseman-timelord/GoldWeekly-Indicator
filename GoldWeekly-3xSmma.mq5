@@ -7,14 +7,14 @@
 #property indicator_plots 3
 
 // Input Parameters
-input int smmaPeriod125 = 125; // SMMA Period for 125 (Red)
-input int smmaPeriod250 = 250; // SMMA Period for 250 (Orange)
-input int smmaPeriod500 = 500; // SMMA Period for 500 (Yellow)
+input int smmaPeriod125 = 75; // SMMA Period for 125 (Red)
+input int smmaPeriod250 = 150; // SMMA Period for 250 (Orange)
+input int smmaPeriod500 = 300; // SMMA Period for 500 (Yellow)
 
 // Global Variables
-double g_smmaBuffer125[];
-double g_smmaBuffer250[];
-double g_smmaBuffer500[];
+double g_smmaBufferRed[];
+double g_smmaBufferOrange[];
+double g_smmaBufferYellow[];
 
 // Initialization Function
 int OnInit()
@@ -24,9 +24,9 @@ int OnInit()
    IndicatorSetInteger(INDICATOR_DIGITS, _Digits);
 
    // Set the indicator buffers
-   SetIndexBuffer(0, g_smmaBuffer125, INDICATOR_DATA);
-   SetIndexBuffer(1, g_smmaBuffer250, INDICATOR_DATA);
-   SetIndexBuffer(2, g_smmaBuffer500, INDICATOR_DATA);
+   SetIndexBuffer(0, g_smmaBufferRed, INDICATOR_DATA);
+   SetIndexBuffer(1, g_smmaBufferOrange, INDICATOR_DATA);
+   SetIndexBuffer(2, g_smmaBufferYellow, INDICATOR_DATA);
 
    // Set the properties for each SMMA line
    PlotIndexSetString(0, PLOT_LABEL, "SMMA 125");
@@ -57,9 +57,9 @@ int OnCalculate(const int rates_total,
                 const double &price[])
 {
    // Calculate the SMMA for each period
-   CalculateSMMA(g_smmaBuffer125, price, rates_total, smmaPeriod125, prev_calculated);
-   CalculateSMMA(g_smmaBuffer250, price, rates_total, smmaPeriod250, prev_calculated);
-   CalculateSMMA(g_smmaBuffer500, price, rates_total, smmaPeriod500, prev_calculated);
+   CalculateSMMA(g_smmaBufferRed, price, rates_total, smmaPeriod125, prev_calculated);
+   CalculateSMMA(g_smmaBufferOrange, price, rates_total, smmaPeriod250, prev_calculated);
+   CalculateSMMA(g_smmaBufferYellow, price, rates_total, smmaPeriod500, prev_calculated);
 
    return(rates_total);
 }
