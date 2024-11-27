@@ -3,7 +3,7 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 
 ### Development
 Current project workflow...
-- Mk4 - Refinements and Rsi Window.
+- Mk4 - Refinements and Rsi Window. You cannot have two windows for 2 indicators in a single indicator, it would have to be merged.
 - Not done yet - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result. Rsi overlay on chart is tricky also, normally its in separate window at bottom of chart.
 - Not done yet - Display Text with resize; resizeable text is more tricky than first expected. 
 
