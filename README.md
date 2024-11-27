@@ -2,7 +2,7 @@
 Status: Incomplete
 
 ### Development
-Project back on because `"In MetaTrader 5, Custom Indicators are designed to display data for only one type of indicator, as each indicator operates as an independent entity. However, when you use an Expert Advisor (EA), you gain much more flexibility"`. Current project details...
+Project back on because `"In MetaTrader 5, Custom Indicators are designed to display data for only one type of indicator, as each indicator operates as an independent entity. However, when you use an Expert Advisor (EA), you gain much more flexibility"`. Current project details (needs update)...
 - Halted/Abandoned; 1) cant have multiple different types of indicators in 1 indicator as intended, and 2) GPT4o and DeepSeek2.5 are unable to draw Rsi on main chart, 3) going round in circles and dont have the time/patience.
 - GoldWeekly-Rsi - the rsi, for now just use normal Rsi Built-in.
 - Not done - rsi as overlay on main chart. cant be done with, gpt4o and deepseek2.5, or with additional research. The idea was to have Rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
