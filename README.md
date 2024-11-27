@@ -22,7 +22,7 @@ With this combination indicators, the strategy for trading would rely upon recog
 
 ### Development
 Current project details...
-- halted, because, 1) cant have multiple different types of indicators in 1 indicator as intended, and 2) GPT4o and DeepSeek2.5 are unable to draw Rsi on main chart. Work below is not done until re-visit.
+- halted, because, 1) cant have multiple different types of indicators in 1 indicator as intended, and 2) GPT4o and DeepSeek2.5 are unable to draw Rsi on main chart. Work below is not done until re-visit, 3) going round in circles and dont have the time/patience.
 - GoldWeekly-Rsi - the rsi, for now just use normal Rsi Built-in.
 - Not done - rsi as overlay on main chart. cant be done with, gpt4o and deepseek2.5, or with additional research. The idea was to have Rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 - Not done - Display Text with resize; resizeable text is more tricky than first expected, it requires text objects, which, gpt and deepseek2.5, dont get right. 
