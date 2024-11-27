@@ -2,11 +2,9 @@
 Its an  Indicator for Mt5, that enables hopefully more effective trading, written with, GPT4o and DeepSeek2.5.
 
 ### Development
-Current project workflow...
+Current project workflow, redone because cant have multiple different types of indicators in 1 indicator...
 - GoldWeekly-DisplayText - Useful text info overlay.
 - GoldWeekly-RsiBasic - the basic version of the rsi, tba.
-- GoldWeekly-RsiAdvanced - We ideally want red bars for bear and blue bars for bull.
-
 - Not done yet - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result. Rsi overlay on chart is tricky also, normally its in separate window at bottom of chart.
 - Not done yet - Display Text with resize; resizeable text is more tricky than first expected. 
 
@@ -20,7 +18,7 @@ The current detail of features is...
 - GoldWeekly-3xSmma - 3 color smma trends, Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2. 
 
 ### Preview
-- The Project so far...
+- Roughly the stage I am at...
 
 ![indicator preview](media/preview.png)
 
