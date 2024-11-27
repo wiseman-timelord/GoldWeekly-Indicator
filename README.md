@@ -18,7 +18,7 @@ The current detail of features is...
 With this combination indicators, the strategy for trading would rely upon recognizing patterns, then when you recognize a pattern, you must be confirming directions for optimal trading with indicators. 
 - Smma - denotes if rebound is likely possible.
 - Text - Good to know stuff, for piece of mind..
-- Rsi (built in Mt5) - is like market pressure, when too far over one side, it will likely go to direction of other side at some point after.
+- Rsi (built-in Mt5) - is like market pressure, when too far over one side, it will likely go to direction of other side at some point after.
 
 ### Development
 Current project details...
