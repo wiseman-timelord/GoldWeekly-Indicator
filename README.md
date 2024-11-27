@@ -3,25 +3,24 @@ Status: Incomplete
 
 ### Development
 Project back on because `"In MetaTrader 5, Custom Indicators are designed to display data for only one type of indicator, as each indicator operates as an independent entity. However, when you use an Expert Advisor (EA), you gain much more flexibility"`. Current project details (needs update)...
-- Halted/Abandoned; 1) cant have multiple different types of indicators in 1 indicator as intended, and 2) GPT4o and DeepSeek2.5 are unable to draw Rsi on main chart, 3) going round in circles and dont have the time/patience.
-- GoldWeekly-Rsi - the rsi, for now just use normal Rsi Built-in.
-- Not done - rsi as overlay on main chart. cant be done with, gpt4o and deepseek2.5, or with additional research. The idea was to have Rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
-- Not done - Display Text with resize; resizeable text is more tricky than first expected, it requires text objects, which, gpt and deepseek2.5, dont get right. 
-- Not done - Re-visit the display text, and add other useful non-indicator based information.
+1. Convert to Expert Advisor.
+2. Halted/Abandoned; 1) cant have multiple different types of indicators in 1 indicator as intended, and 2) GPT4o and DeepSeek2.5 are unable to draw Rsi on main chart, 3) going round in circles and dont have the time/patience.
+3. GoldWeekly-Rsi - the rsi, for now just use normal Rsi Built-in.
+4. Not done - rsi as overlay on main chart. cant be done with, gpt4o and deepseek2.5, or with additional research. The idea was to have Rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
+5. Not done - Display Text with resize; resizeable text is more tricky than first expected, it requires text objects, which, gpt and deepseek2.5, dont get right. 
+6. Not done - Re-visit the display text, and add other useful non-indicator based information.
 
 ### Description
 - A set of Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
 
 ### Preview
-- The, Display Text and 3x Smma, on the chart...
+- Indicator (Limited)...
 
 ![indicator preview](media/preview.png)
 
 ### Features
-The current detail of features is...
-- GoldWeekly-TextDisplay - useful info such as, periods since week start max 1000, week date start/end.  
-- GoldWeekly-3xSmma - 3 color smma trends, Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2. 
-- GoldWeekly-TextDisplay - both of the above, with the added text to show the medium average result of the 3 smma.
+The current detail of features is... 
+- GoldWeekly-Indicator - As shown above, with the, Display Text and the 3 Smma; Indicators are limited to 1 type of Indicator. 
 
 ## Instructions
 With this combination indicators, the strategy for trading would rely upon recognizing patterns, then when you recognize a pattern, you must be confirming directions for optimal trading with indicators. 
