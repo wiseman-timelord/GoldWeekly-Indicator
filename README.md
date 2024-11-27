@@ -2,7 +2,7 @@
 Status: Alpha
 
 ### Development
-Project back on because `"In MetaTrader 5, Custom Indicators are designed to display data for only one type of indicator, as each indicator operates as an independent entity. However, when you use an Expert Advisor (EA), you gain much more flexibility"`. Current project details (needs update)...
+Project back on because `"In MetaTrader 5, Custom Indicators are designed to display data for only one type of indicator, as each indicator operates as an independent entity. However, when you use an Expert Advisor (EA), you gain much more flexibility"`, however, I have also now found out `EAs don’t automatically plot indicators like a custom indicator script would`, so we will see. Current project details (needs update)...
 1. Convert to Expert Advisor.
 2. Halted/Abandoned; 1) cant have multiple different types of indicators in 1 indicator as intended, and 2) GPT4o and DeepSeek2.5 are unable to draw Rsi on main chart, 3) going round in circles and dont have the time/patience.
 3. GoldWeekly-Rsi - the rsi, for now just use normal Rsi Built-in.
