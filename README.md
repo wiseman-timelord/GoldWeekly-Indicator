@@ -3,7 +3,7 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 
 ### Development
 Current project workflow...
-- REmaining work for mk3 - Display Text with resize works.
+- REmaining work for mk3 - Display Text with resize does not work; resizeable text is more tricky than first expected. 
 - Planned for mk4 - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
 
 ### Description
