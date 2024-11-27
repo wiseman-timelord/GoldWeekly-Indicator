@@ -3,8 +3,10 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 
 ### Development
 Current project workflow...
-- REmaining work for mk3 - Display Text with resize does not work; resizeable text is more tricky than first expected. 
-- Planned for mk4 - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
+- Mk4 - Refinements and Rsi Window.
+- Not done yet - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result. Rsi overlay on chart is tricky also, normally its in separate window at bottom of chart.
+- Not done yet - Display Text with resize; resizeable text is more tricky than first expected. 
+
 
 ### Description
 - Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
@@ -12,7 +14,7 @@ Current project workflow...
 ### Features
 The current detail of features is...
 - Display text - useful info such as, periods since week start max 1000, combined smma result, week date start/end.  
-- 3 color smma trends - 250, 500, 1000, with default line thickness 2.
+- 3 color smma trends - Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2.
 - Any pair compatible - Not pair locked like early version, but still intended for gold.
 
 ### Preview
@@ -22,7 +24,7 @@ The current detail of features is...
 
 ## Instructions
 With this indicator, the strategy for trading would rely upon recognizing patterns, then when you recognize a pattern, you must be confirming directions for optimal trading with indicator... 
-- Red is Fast, Orange is Medium, Yellow is Slow, make sense to me. Smma denotes if rebound is likely possible.
+- Smma denotes if rebound is likely possible.
 - Rsi is like market pressure, when too far over one side, it will eventually go to other side.
 
 ### Warnings
