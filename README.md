@@ -3,11 +3,10 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 
 ### Development
 Current project workflow, redone because cant have multiple different types of indicators in 1 indicator...
-- GoldWeekly-DisplayText - Useful text info overlay.
-- GoldWeekly-RsiBasic - the basic version of the rsi, tba.
+- GoldWeekly-Rsi - the rsi, tba.
 - Not done yet - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result. Rsi overlay on chart is tricky also, normally its in separate window at bottom of chart.
 - Not done yet - Display Text with resize; resizeable text is more tricky than first expected. 
-
+- Not done yet - Re-visit the display text, and add other useful non-indicator based information.
 
 ### Description
 - Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
