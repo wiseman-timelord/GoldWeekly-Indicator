@@ -1,5 +1,5 @@
 # GoldWeekly-Indicator
-Status: Incomplete
+Status: Alpha
 
 ### Development
 Project back on because `"In MetaTrader 5, Custom Indicators are designed to display data for only one type of indicator, as each indicator operates as an independent entity. However, when you use an Expert Advisor (EA), you gain much more flexibility"`. Current project details (needs update)...
