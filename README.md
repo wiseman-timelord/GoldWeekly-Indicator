@@ -3,7 +3,10 @@ Its an  Indicator for Mt5, that enables hopefully more effective trading, writte
 
 ### Development
 Current project workflow...
-- Mk4 - Refinements and Rsi Window. You cannot have two windows for 2 indicators in a single indicator, it would have to be merged.
+- GoldWeekly-DisplayText - Useful text info overlay.
+- GoldWeekly-RsiBasic - the basic version of the rsi, tba.
+- GoldWeekly-RsiAdvanced - We ideally want red bars for bear and blue bars for bull.
+
 - Not done yet - rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result. Rsi overlay on chart is tricky also, normally its in separate window at bottom of chart.
 - Not done yet - Display Text with resize; resizeable text is more tricky than first expected. 
 
@@ -13,9 +16,8 @@ Current project workflow...
 
 ### Features
 The current detail of features is...
-- GoldWeekly-TextDisplay - useful info such as, periods since week start max 1000, combined smma result, week date start/end.  
+- GoldWeekly-TextDisplay - useful info such as, periods since week start max 1000, week date start/end.  
 - GoldWeekly-3xSmma - 3 color smma trends, Red is Fast, Orange is Medium, Yellow is Slow, with default line thickness 2. 
-- Any pair compatible - Not pair locked like early version, but still intended for gold.
 
 ### Preview
 - The Project so far...
