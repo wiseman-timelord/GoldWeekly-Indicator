@@ -11,10 +11,14 @@ Project back on because `"In MetaTrader 5, Custom Indicators are designed to dis
 6. Not done - Re-visit the display text, and add other useful non-indicator based information.
 
 ### Description
-- A set of Indicators to use in Metatrader 5, designed for trending market, to use as confirmation for trading strategy, to make likelyhoods more apparent. Manual trading with the indicator provided relies upon the trader's ability to recognize patterns in the market, therein,but these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, can be improved through the use of indicators, at least thats how the theory goes.
+- A set of Indicators in the form of an Expert Advisor to use in Metatrader 5, designed for trending market such as Gold, to use as clarification of confirmation for trading strategy, to make likelyhoods of safe trading directions more apparent; this is based on Manual trading which relies upon the trader's ability to recognize patterns in the market, therein,these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, in the long term can be improved through the use of indicators.
 
 ### Preview
-- Indicator (Limited)...
+- Expert Advisor verion (Full)...
+```
+TBA
+```
+- Indicator version (Limited)...
 
 ![indicator preview](media/preview.png)
 
