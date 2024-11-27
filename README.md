@@ -1,4 +1,4 @@
-# GoldWeekly-Indicator
+# GoldWeekly-Mt5
 Status: Alpha
 
 ### Development
