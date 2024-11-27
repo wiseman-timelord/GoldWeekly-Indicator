@@ -19,6 +19,7 @@ With this combination indicators, the strategy for trading would rely upon recog
 - Smma - denotes if rebound is likely possible.
 - Text - Good to know stuff, for piece of mind..
 - Rsi (built-in Mt5) - is like market pressure, when too far over one side, it will likely go to direction of other side at some point after.
+- Lines (built-in Mt5) - Ensure to draw on the chart to clarify patterns.
 
 ### Development
 Current project details...
