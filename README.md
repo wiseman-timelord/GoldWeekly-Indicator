@@ -20,13 +20,13 @@ The current detail of features is...
 - GoldWeekly-TextOnly - Limited to some basic text on screen, this is being developed also...
 
 ### Preview
-- Expert Advisor verion; In Progress...
-```
-TBA
-```
 - Indicator version; Limited to 3 Smma and Display Text due to Mt5...
 
-![indicator preview](media/preview.png)
+![indicator preview](media/Indicator.png)
+
+- TextOnly version; Some text overlay with basic information for now...
+
+![indicator preview](media/TextOnly.png)
 
 ## Instructions
 1. For example, copy, the Indicator to the `./Mql5/Indicators/Custom` folder and the EA to the `./Mql5/Expert Advisors/Custom`, then start/restart the program.  
