@@ -7,9 +7,9 @@
 #property indicator_plots 3
 
 // Input Parameters
-input int smmaPeriod125 = 75; // SMMA Period for 125 (Red)
-input int smmaPeriod250 = 150; // SMMA Period for 250 (Orange)
-input int smmaPeriod500 = 300; // SMMA Period for 500 (Yellow)
+input int smmaPeriod125 = 250; // SMMA Period for 125 (Red)
+input int smmaPeriod250 = 500; // SMMA Period for 250 (Orange)
+input int smmaPeriod500 = 1000; // SMMA Period for 500 (Yellow)
 
 // Global Variables
 double g_smmaBufferRed[];
