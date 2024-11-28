@@ -6,7 +6,7 @@ Status: Advisor = Alpha
 The indicator version, though limited is done, however, the project to make the EA version with multiple indicators, will likely, take time or not work as intended, because, I found out `EAs don’t automatically plot indicators like a custom indicator script would`, so, each indicator would have to be a complete custom indicator, its highly difficult to correctly program, and it may turn out to be impossible, we will see. Current project details (needs update)...
 1. Convert Indicator to Expert Advisor. This is done but its not right, and needs fixing.
 2. Add the rsi to main chart. Rsi is normally in a separate window, 
-3. Enhanced Rsi. The idea was to have Rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result.
+3. Enhanced Rsi. The idea was to have Rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result. Rsi , is like market pressure, when too far over one side, it will likely go to direction of other side at some point after. 
 4. Display Text with resize; resizeable text is more tricky than first expected, it requires text objects, which, gpt and deepseek2.5, dont get right. 
 5. Not done - Re-visit the display text, and add other useful non-indicator based information.
 
@@ -34,7 +34,9 @@ The current detail of features is...
 3. Determine if this is something that will help you in your trading, or if you think it would be a bad idea; currently only the Indicator is working, which is limited, but if you want a little info and plan to use 3 clear SMMA, then maybe its useful, but the Periods would probably need a tweak, to tune the trend info to, your style and the pair. 
 
 ## Notation
-- The strategy for trading would rely upon recognizing patterns, then when you recognize a pattern, you must be confirming directions for optimal trading with indicators. Smma, denotes if rebound is likely possible. Text, Good to know stuff, for piece of mind. Rsi (built-in Mt5), is like market pressure, when too far over one side, it will likely go to direction of other side at some point after. Lines (built-in Mt5), Ensure to draw on the chart to clarify patterns.
+- The strategy for trading would rely upon recognizing patterns typically on M15-M30, then be confirming directions for optimal trading with indicators in combination with ones such as the ones supplied here. Smma, denotes if rebound is likely possible. 
+- The Text I implement is, Good to know stuff and self explanitory. 
+- When trading ensure to draw Lines on chart, to clarify patterns.
 - I created this (currently experimental) GPT Profile named [Mt5Mql5-4o1Mini](https://chatgpt.com/g/g-Un4YwjMNH-mt5mql5-4o1mini), for creating my, Indicators and Expert Advisors, it needs improving currently, as it confuses Mql4 with Mql5.
 
 ## Warnings
