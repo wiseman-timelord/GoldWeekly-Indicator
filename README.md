@@ -1,6 +1,6 @@
 # GoldWeekly-Mt5
 Status: Indicator = Working
-Status: Advisor = Alpha
+<BR>Status: Advisor = Alpha
 
 ### Development
 The indicator version, though limited is done, however, the project to make the EA version with multiple indicators, will likely, take time or not work as intended, because, I found out `EAs don’t automatically plot indicators like a custom indicator script would`, so, each indicator would have to be a complete custom indicator, its highly difficult to correctly program, and it may turn out to be impossible, we will see. Current project details (needs update)...
