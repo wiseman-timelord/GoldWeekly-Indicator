@@ -180,8 +180,6 @@ void DisplayChartVariables(int rates_total)
    else
       dailyLow = 0.0;
 
-   string bidStr       = "BID PRICE: " + DoubleToString(bidPrice, _Digits);
-   string askStr       = "ASK PRICE: " + DoubleToString(askPrice, _Digits);
    string spreadStr    = "SPREAD: " + DoubleToString(spread, 1) + " POINTS";
    string dailyHighStr = "DAILY HIGH: " + DoubleToString(dailyHigh, _Digits);
    string dailyLowStr  = "DAILY LOW: " + DoubleToString(dailyLow, _Digits);
@@ -204,9 +202,6 @@ void DisplayChartVariables(int rates_total)
       + daysUntilWeekendStr + "\n"
       + barsCount + "\n"
       + spreadStr + "\n"
-      + bidStr + "\n"
-      + askStr + "\n"
-
       + dailyHighStr + "\n"
       + dailyLowStr;
 
