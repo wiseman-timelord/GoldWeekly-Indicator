@@ -28,12 +28,18 @@ The current detail of features is...
 
 ![indicator preview](media/TextOnly.png)
 
-## Instructions
-1. For files, copy the, Indicator and TextOnly, to the `./Mql5/Indicators/Custom` folder, and the EA to the `./Mql5/Expert Advisors/Custom` folder, then start/restart the program.  
-2. Open a Chart window in MetaTrader 5 on a trending pair, and copy the, Advisor or Indicator, to a chart window in navigator.
+## Instructions - Indicators
+1. For files, copy the, Indicator and/or TextOnly, to the `./Mql5/Indicators/Custom` folder.
+2. Open a Chart window in MetaTrader 5 on a trending pair, and copy the Indicator to a chart window in navigator.
 3. Therein each will differ in purpose...
 - Indicator - 3 thicker SMMA, 250 Red, 500 Orange, 1000 Yellow, the combined result is shown in the text of the indicator as DOWN or UP.
 - Text only - Do not use with Indicator, as text display will have issues for now.
+
+## Instructions - Advisors
+1. For files copy the TextOnly to the `./Mql5/Indicators/Custom` folder.
+2. Open a Chart window in MetaTrader 5 on a trending pair, and copy the Advisor to a chart window in navigator.
+3. Therein the Advisor has multiple-sections...
+- TBA.  
 
 ## Notation
 - The strategy for trading would rely upon recognizing patterns typically on M15-M30, then be confirming directions for optimal trading with indicators in combination with ones such as the ones supplied here. Smma, denotes if rebound is likely possible. 
