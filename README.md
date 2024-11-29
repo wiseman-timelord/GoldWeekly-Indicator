@@ -4,12 +4,11 @@ Status: Indicator = Beta
 <BR>Status: TextOnly = Beta
 
 ### Development
-The indicator version, though limited is done, however, the project to make the EA version with multiple indicators, will likely, take time or not work as intended, because, I found out `EAs don’t automatically plot indicators like a custom indicator script would`, so, each indicator would have to be a complete custom indicator, its highly difficult to correctly program, and it may turn out to be impossible, we will see. Current project details (needs update)...
+I found out `EAs don’t automatically plot indicators like a custom indicator script would`, so, each indicator would have to be a complete custom indicator, or otherwise made as an EA. Current project details...
 1. Convert Indicator to Expert Advisor. This is done but its not right, and needs fixing.
 2. Add the rsi to main chart. Rsi is normally in a separate window, 
 3. Enhanced Rsi. The idea was to have Rsi with colors indicating if the direction the rsi is going in is going in same direction as combined smma trend result. Rsi , is like market pressure, when too far over one side, it will likely go to direction of other side at some point after. 
 4. Display Text with resize; resizeable text is more tricky than first expected, it requires text objects, which, gpt and deepseek2.5, dont get right. 
-5. Not done - Re-visit the display text, and add other useful non-indicator based information.
 
 ### Description
 This is a project to create an interface for trading on MetaTrader 5, designed for trending pairs such as Gold, to use as clarification of confirmation for trading strategy, to make likelyhoods of safe trading directions more apparent; this is based on Manual trading which relies upon the trader's ability to recognize patterns in the market, therein,these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, in the long term can be improved through the use of indicators.
@@ -18,7 +17,7 @@ This is a project to create an interface for trading on MetaTrader 5, designed f
 The current detail of features is... 
 - GoldWeekly-Advisor - In Progress. Supposedly as an EA able to display multiple indicators, and combine signals with graphic.
 - GoldWeekly-Indicator - As shown below, with the, Display Text and the 3 Smma; Indicators are limited to 1 type of Indicator. 
-- GoldWeekly-TextOnly - Limited to some basic text on screen, this is being developed also...
+- GoldWeekly-TextOnly - Limited to some basic text on screen, this now has enum for text position.
 
 ### Preview
 - Indicator version; Limited to 3 Smma and Display Text due to Mt5...
