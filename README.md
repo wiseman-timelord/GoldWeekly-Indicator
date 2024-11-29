@@ -16,15 +16,15 @@ This is a project to create an interface for trading on MetaTrader 5, designed f
 ### Features
 The current detail of features is... 
 - GoldWeekly-Advisor - In Progress. Supposedly as an EA able to display multiple indicators, and combine signals with graphic.
-- GoldWeekly-Indicator - Simpler Display Text and the 3 Smma (Indicators are limited to 1 type of Indicator each). 
-- GoldWeekly-TextOnly - Now featuring Text Objects, with, window position and font size. Here is only concise detail of useful info.
+- GoldWeekly-Indicator - 3 Clear Smma, and Text Objects with, window position and font size. 
+- GoldWeekly-TextOnly - Text Objects with, window position and font size. Here is only concise detail of useful info.
 
 ### Preview
-- Indicator version; Limited to 3 Smma and Display Text due to Mt5...
+- Indicator version - 3 Smma and Display Text...
 
 ![indicator preview](media/Indicator.png)
 
-- TextOnly version...
+- TextOnly version - Display Text Only...
 
 ![indicator preview](media/TextOnly.png)
 
