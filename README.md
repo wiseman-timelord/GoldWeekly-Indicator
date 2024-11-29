@@ -31,14 +31,16 @@ The current detail of features is...
 ## Instructions - Indicators
 1. For files, copy the, Indicator and/or TextOnly, to the `./Mql5/Indicators/Custom` folder.
 2. Open a Chart window in MetaTrader 5 on a trending pair, and copy the Indicator to a chart window in navigator.
-3. Therein each will differ in purpose...
+3. Ensure to check the external inputs for font size/position.
+4. Each Indicator will differ in purpose...
 - Indicator - 3 thicker SMMA, 250 Red, 500 Orange, 1000 Yellow, the combined result is shown in the text of the indicator as DOWN or UP.
 - Text only - Do not use with Indicator, as text display will have issues for now.
 
 ## Instructions - Advisors
 1. For files copy the TextOnly to the `./Mql5/Indicators/Custom` folder.
 2. Open a Chart window in MetaTrader 5 on a trending pair, and copy the Advisor to a chart window in navigator.
-3. Therein the Advisor has multiple-sections...
+3. Ensure to check the external inputs for font size/position.
+4. Therein the Advisor has multiple-sections...
 - TBA.  
 
 ## Notation
