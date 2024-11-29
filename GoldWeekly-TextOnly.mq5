@@ -200,12 +200,13 @@ void DisplayChartVariables(int rates_total)
 
    string display =
       "GOLDWEEKLY-TEXT\n"
+      + symbolName + "\n"
       + daysUntilWeekendStr + "\n"
       + barsCount + "\n"
-      + symbolName + "\n"
+      + spreadStr + "\n"
       + bidStr + "\n"
       + askStr + "\n"
-      + spreadStr + "\n"
+
       + dailyHighStr + "\n"
       + dailyLowStr;
 
