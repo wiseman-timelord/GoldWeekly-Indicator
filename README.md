@@ -1,7 +1,7 @@
 # GoldWeekly-Mt5
 Status: Indicator = Beta
 <BR>Status: Advisor = Pre-Alpha
-<BR>Status: TextOnly = Beta
+<BR>Status: TextOnly = Working
 
 ### Development
 I found out `EAs don’t automatically plot indicators like a custom indicator script would`, so, each indicator would have to be a complete custom indicator, or otherwise made as an EA. Current project details...
