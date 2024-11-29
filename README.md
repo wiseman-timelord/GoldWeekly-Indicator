@@ -1,6 +1,6 @@
 # GoldWeekly-Mt5
 Status: Indicator = Beta
-<BR>Status: Advisor = Alpha
+<BR>Status: Advisor = Pre-Alpha
 <BR>Status: TextOnly = Beta
 
 ### Development
