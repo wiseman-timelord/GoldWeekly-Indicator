@@ -131,27 +131,8 @@ void DisplayChartVariables(int rates_total)
       return;
      }
 
-   // Calculate the start of the current day
-   MqlDateTime dt;
+   // Get the current server time
    datetime currentTime = TimeCurrent();
-   TimeToStruct(currentTime, dt);
-   dt.hour = 0;
-   dt.min  = 0;
-   dt.sec  = 0;
-   datetime startOfDay = StructToTime(dt);
-
-   // Calculate the number of bars since the start of the day
-   int startOfDayIndex = iBarShift(symbol, PERIOD_CURRENT, startOfDay);
-   int barsSinceDayStart = rates_total - startOfDayIndex;
-   string barsCount = "BARS TODAY: ";
-   if(barsSinceDayStart > 1000)
-     {
-      barsCount += "1000+";
-     }
-   else
-     {
-      barsCount += IntegerToString(barsSinceDayStart);
-     }
 
    // Get symbol name in capitals
    string symbolName = "SYMBOL: " + symbolUpper;
@@ -200,7 +181,6 @@ void DisplayChartVariables(int rates_total)
       "GOLDWEEKLY-TEXT\n"
       + symbolName + "\n"
       + daysUntilWeekendStr + "\n"
-      + barsCount + "\n"
       + spreadStr + "\n"
       + dailyHighStr + "\n"
       + dailyLowStr;
@@ -215,6 +195,7 @@ void DisplayChartVariables(int rates_total)
       UpdateTextLabel(lines[i], i);
    }
 }
+
 
 // Function to create and update the text label
 void UpdateTextLabel(string text, int lineIndex)
