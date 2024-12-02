@@ -27,6 +27,7 @@ input FontSize fontSize = MEDIUM; // Default font size
 
 // Global Variables
 datetime g_startOfWeek;
+int g_tickCounter = 0;
 
 // Function to get the corner based on text position
 int GetCorner(TextPosition position)
@@ -113,8 +114,19 @@ int OnCalculate(const int rates_total,
 }
 
 // Display Function
+// Display Function
 void DisplayChartVariables(int rates_total)
 {
+   // Increment the tick counter
+   g_tickCounter++;
+
+   // Only update every 5 ticks
+   if(g_tickCounter < 5)
+      return;
+
+   // Reset the tick counter
+   g_tickCounter = 0;
+
    // First, check if the symbol is a gold pair
    string symbol      = Symbol();
    string symbolUpper = symbol;
@@ -161,6 +173,20 @@ void DisplayChartVariables(int rates_total)
    else
       dailyLow = 0.0;
 
+   // Calculate the number of open positions for the current symbol
+   int totalPositions = 0;
+
+   for(int i = 0; i < PositionsTotal(); i++)
+   {
+      // Get the symbol of the position at index 'i'
+      if(PositionSelect(Symbol())) // Check if there's a position for the current symbol
+      {
+         totalPositions++;
+      }
+   }
+
+   string ordersOpenStr = "ORDERS OPEN: " + IntegerToString(totalPositions);
+
    string spreadStr    = "SPREAD: " + DoubleToString(spread, 1) + " POINTS";
    string dailyHighStr = "DAILY HIGH: " + DoubleToString(dailyHigh, _Digits);
    string dailyLowStr  = "DAILY LOW: " + DoubleToString(dailyLow, _Digits);
@@ -183,7 +209,8 @@ void DisplayChartVariables(int rates_total)
       + daysUntilWeekendStr + "\n"
       + spreadStr + "\n"
       + dailyHighStr + "\n"
-      + dailyLowStr;
+      + dailyLowStr + "\n"
+      + ordersOpenStr;
 
    // Split the display text into lines
    string lines[];
