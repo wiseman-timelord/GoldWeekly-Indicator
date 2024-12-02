@@ -112,7 +112,12 @@ int OnInit()
 // Deinitialization Function
 void OnDeinit(const int reason)
 {
-   ObjectDelete(0, "GoldWeeklySMMAStatus");
+   // Delete all text label objects
+   for(int i = 0; i < 10; i++) // Assuming a maximum of 10 lines
+   {
+      string objName = "GoldWeeklySMMAStatus_" + IntegerToString(i);
+      ObjectDelete(0, objName);
+   }
 }
 
 // Calculation Function
@@ -159,20 +164,25 @@ void DisplaySMMAStatus()
    else downCount++;
 
    // Determine overall direction based on majority
-   string status = "MEDIUM SMMA: ";
-   if (upCount > downCount)  // Majority up
-      status += "BULLISH";
-   else  // Majority down
-      status += "BEARISH";
+   string direction = (upCount > downCount) ? "BULLISH" : "BEARISH";
+
+   // Prepare multiline text
+   string lines[] = {
+      "GOLDWEEKLY-3XSMMA", // First line
+      "MEDIUM SMMA: " + direction // Second line
+   };
 
    // Update the display text
-   UpdateTextLabel(status);
+   for(int i = 0; i < ArraySize(lines); i++)
+   {
+      UpdateTextLabel(lines[i], i);
+   }
 }
 
 // Function to create and update the text label
-void UpdateTextLabel(string text)
+void UpdateTextLabel(string text, int lineIndex)
 {
-   string objName = "GoldWeeklySMMAStatus";
+   string objName = "GoldWeeklySMMAStatus_" + IntegerToString(lineIndex);
 
    ObjectDelete(0, objName);
 
@@ -184,8 +194,12 @@ void UpdateTextLabel(string text)
    ObjectSetString(0, objName, OBJPROP_FONT, "Arial");
 
    ObjectSetInteger(0, objName, OBJPROP_CORNER, GetCorner(textPosition));
-   ObjectSetInteger(0, objName, OBJPROP_XDISTANCE, GetXDistance(textPosition));
-   ObjectSetInteger(0, objName, OBJPROP_YDISTANCE, 10);
+
+   // Adjust position based on line index
+   int xDist = GetXDistance(textPosition);
+   int yDist = 10 + lineIndex * 15; // Adjust vertical spacing
+   ObjectSetInteger(0, objName, OBJPROP_XDISTANCE, xDist);
+   ObjectSetInteger(0, objName, OBJPROP_YDISTANCE, yDist);
 
    ObjectSetInteger(0, objName, OBJPROP_BACK, false);
 }
