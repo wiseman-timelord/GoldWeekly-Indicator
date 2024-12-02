@@ -10,13 +10,10 @@ The current detail of features is...
 - GoldWeekly-TextOnly - Text Info with, text position and font size.
 
 ### Preview
-- Indicator - 3 Smma Only...
+- Indicator - 3 Smma Only And Display Text...
 
-![indicator preview](media/SmmaOnly.png)
+![indicator preview](media/Indicators.png)
 
-- Indicator - Display Text Only...
-
-![indicator preview](media/TextOnly.png)
 
 ## Instructions - Indicators
 1. For files, copy the, Indicator and/or TextOnly, to the `./Mql5/Indicators/Custom` folder.
