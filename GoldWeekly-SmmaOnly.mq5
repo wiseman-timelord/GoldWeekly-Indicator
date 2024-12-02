@@ -148,18 +148,24 @@ void DisplaySMMAStatus()
 {
    int upCount = 0, downCount = 0;
 
+   // Determine the direction for each SMMA line
    if (SMMA_Buffer1[0] > SMMA_Buffer1[1]) upCount++;
-   else if (SMMA_Buffer1[0] < SMMA_Buffer1[1]) downCount++;
+   else downCount++;
 
    if (SMMA_Buffer2[0] > SMMA_Buffer2[1]) upCount++;
-   else if (SMMA_Buffer2[0] < SMMA_Buffer2[1]) downCount++;
+   else downCount++;
 
    if (SMMA_Buffer3[0] > SMMA_Buffer3[1]) upCount++;
-   else if (SMMA_Buffer3[0] < SMMA_Buffer3[1]) downCount++;
+   else downCount++;
 
-   string status = "MEAN SMMA: ";
-   status += (upCount > downCount) ? "BEAR" : "BULL";
+   // Determine overall direction based on majority
+   string status = "MEDIUM SMMA: ";
+   if (upCount > downCount)  // Majority up
+      status += "BULLISH";
+   else  // Majority down
+      status += "BEARISH";
 
+   // Update the display text
    UpdateTextLabel(status);
 }
 
