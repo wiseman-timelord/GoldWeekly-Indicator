@@ -23,7 +23,7 @@ enum FontSize
 
 // Input Parameters
 input TextPosition textPosition = TOP_LEFT; // Default position
-input FontSize fontSize = MEDIUM; // Default font size
+input FontSize fontSize = LARGE; // Default font size
 
 // Global Variables
 datetime g_startOfWeek;
