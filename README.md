@@ -1,5 +1,5 @@
 # GoldWeekly-Mt5
-Status: Under Development
+Status: Ongoing Work
 
 ### Description
 This is a project to create an interface for trading on MetaTrader 5, designed for trending pairs such as Gold, to use as clarification of confirmation for trading strategy, to make likelyhoods of safe trading directions more apparent; this is based on Manual trading which relies upon the trader's ability to recognize patterns in the market, therein,these patterns often have unexpected twists, but the likelyhood of, recouperating losses and avoiding bad trades, in the long term can be improved through the use of indicators.
@@ -10,7 +10,7 @@ The current detail of features is...
 - GoldWeekly-TextOnly - Text Info with, text position and font size.
 
 ### Preview
-- Indicator - 3 Smma Only And Display Text...
+- Indicator - Smma And Text, Only...
 
 ![indicator preview](media/Indicators.png)
 
